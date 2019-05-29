@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block title %}
+	Index Page
+{% endblock %}
+
+{% block content_title %}
+	Index page
+{% endblock %}
+
+
+
+{% block content %}
+	В Москве сейчас {{ q }} градусов
+	<br>
+	Через 3 часа будет {{ t }}
+	<br>
+	<img src="./static/mem.jpg" width="1000px" /><br>
+{% endblock %}
